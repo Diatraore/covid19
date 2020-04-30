@@ -1,0 +1,9 @@
+@import "tailwindcss/utilities.css";
+@import "tailwindcss/components.css";
+@import "tailwindcss/base.css";
+
+
+.turbolinks-progress-bar {
+    height: 5px;
+    background-color: green;
+}

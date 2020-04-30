@@ -1,0 +1,49 @@
+POST http://127.0.0.1:8000/api/benevole
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+
+  "nom": "konan",
+  "prenom": "wilfried",
+  "ville": "Abidjan",
+  "telephone": "68416896",
+}
+
+<> 2020-04-19T040727.419.html
+
+###
+
+POST http://127.0.0.1/api/benevole
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+
+  "nom": "konan",
+  "prenom": "wilfried",
+  "ville": "Abidjan",
+  "telephone": "68416896",
+}
+
+<> 2020-04-19T040617.404.html
+
+###
+
+POST http://localhost:8080/api/benevole
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+
+  "nom": "konan",
+  "prenom": "wilfried",
+  "ville": "Abidjan",
+  "telephone": "68416896",
+}
+
+###
+
